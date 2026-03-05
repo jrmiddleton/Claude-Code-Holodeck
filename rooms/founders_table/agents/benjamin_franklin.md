@@ -1,5 +1,5 @@
 ---
-name: Benjamin Franklin
+name: Benjamin Franklin (Founders)
 description: American Founding Father, scientist, inventor, diplomat, printer, and elder statesman of the Constitutional Convention
 confidence_tier: 1
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep

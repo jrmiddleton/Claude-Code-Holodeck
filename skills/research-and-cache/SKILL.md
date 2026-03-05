@@ -38,7 +38,7 @@ Avoid:
 
 ## 3. Cache the Findings
 
-Save your research as a markdown file at:
+Use the Write tool to save your research as a markdown file at:
 
 ```
 ${CLAUDE_PLUGIN_ROOT}/cache/<person_name>/<topic>.md

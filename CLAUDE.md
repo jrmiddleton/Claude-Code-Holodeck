@@ -4,7 +4,7 @@ A Claude Code plugin that lets users enter virtual rooms and converse with group
 
 ## Project Structure
 
-- `plugin.json` - Plugin manifest
+- `.claude-plugin/plugin.json` - Plugin manifest
 - `commands/` - Slash commands (/holodeck, /enter-room)
 - `rooms/` - Room definitions, each containing a `room.md` and `agents/` directory
 - `skills/` - Shared skills (research-and-cache)

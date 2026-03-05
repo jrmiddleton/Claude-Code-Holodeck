@@ -1,5 +1,5 @@
 ---
-name: Sun Tzu
+name: Sun Tzu (Agora)
 description: Ancient Chinese military strategist and philosopher, attributed author of The Art of War
 confidence_tier: 2
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep

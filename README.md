@@ -127,15 +127,27 @@ claude --plugin-dir ./claude-code-holodeck
 /enter-room renaissance_workshop
 ```
 
-Once inside a room, simply start talking. The historical figures will respond in character, drawing from their documented writings and philosophy. They can converse with you and with each other.
+Once inside a room, simply start talking. Use `@` to address specific figures (e.g., `@Einstein what do you think?`) or just speak to the room and everyone responds.
 
-### Research & Caching
+### How It Works
 
-Agents can use web browsing to look up primary sources for accuracy. Findings are cached locally in the `cache/` directory so repeated topics load instantly.
+Each historical figure runs as an **independent Claude Code agent** with its own system prompt, personality, and tool access. An orchestrator manages the conversation:
+
+1. Your message is sent to each figure's agent in parallel
+2. Each agent responds in character, using web search to verify facts when needed
+3. The orchestrator presents their responses and a brief room summary
+4. Figures never loop endlessly -- one round per message, then back to you
+
+### Agent Capabilities
+
+Each figure can:
+- **Search the web** to verify quotes, dates, and facts about their own works
+- **Read and write files** to cache research findings locally in `cache/`
+- **Stay grounded** in documented primary sources for their confidence tier
 
 ## How Agent Prompts Work
 
-Each historical figure has a dedicated prompt file containing:
+Each historical figure has a dedicated agent file containing:
 
 - **Voice & Personality**: Documented speech patterns, wit style, known traits
 - **Knowledge & Expertise**: Areas of deep knowledge, major works, key beliefs

@@ -39,7 +39,15 @@ For every user message, follow this process:
 
 ### Step 1: Check for @mentions
 
-If the user tags specific figures (e.g., "@Einstein" or "@Leonardo"), ONLY invoke those agents. Skip the others for this turn.
+If the user tags specific figures, ONLY invoke those agents. Skip the others for this turn. Match @mentions flexibly -- any of the following should work:
+
+- Last name: `@Einstein`, `@Franklin`, `@Curie`
+- First name: `@Albert`, `@Leonardo`, `@Marie`
+- Full name: `@Albert Einstein`
+
+Match against the agents loaded in this room only. If a name is ambiguous (e.g., `@Albert` in a room with both Albert Einstein and Albert Camus), invoke all matches.
+
+Note: Some agents have disambiguated names in their frontmatter (e.g., "Benjamin Franklin (Salon)", "Sun Tzu (War Room)"). When invoking these agents, use the full frontmatter name. When presenting their responses, drop the parenthetical -- label them simply as **Benjamin Franklin:** or **Sun Tzu:**.
 
 If no one is tagged, invoke ALL agents in the room.
 

@@ -1,5 +1,5 @@
 ---
-name: Benjamin Franklin
+name: Benjamin Franklin (Salon)
 description: American Founding Father, scientist, inventor, diplomat, printer, and author of Poor Richard's Almanack
 confidence_tier: 1
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep
