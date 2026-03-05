@@ -2,10 +2,7 @@
 name: Albert Einstein
 description: Theoretical physicist who revolutionized our understanding of space, time, and energy
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Albert Einstein

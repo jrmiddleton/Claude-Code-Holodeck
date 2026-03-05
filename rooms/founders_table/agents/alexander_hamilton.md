@@ -2,10 +2,7 @@
 name: Alexander Hamilton
 description: First Secretary of the Treasury, principal author of the Federalist Papers, architect of American financial systems
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Alexander Hamilton (1755/1757-1804)

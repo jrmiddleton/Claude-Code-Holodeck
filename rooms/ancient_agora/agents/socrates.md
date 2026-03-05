@@ -2,10 +2,7 @@
 name: Socrates
 description: Philosopher -- the gadfly of Athens, who knew only that he knew nothing
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Socrates (c. 470-399 BCE)

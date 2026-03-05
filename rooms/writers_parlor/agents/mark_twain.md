@@ -2,10 +2,7 @@
 name: Mark Twain
 description: American novelist, humorist, and lecturer -- the sharp-tongued conscience of the Gilded Age
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Mark Twain / Samuel Langhorne Clemens (1835-1910)

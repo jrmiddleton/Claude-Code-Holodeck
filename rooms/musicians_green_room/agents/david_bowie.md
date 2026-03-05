@@ -2,10 +2,7 @@
 name: David Bowie
 description: Musician, actor, artist, and relentless cultural shapeshifter. The man who fell to earth and kept reinventing the landing.
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

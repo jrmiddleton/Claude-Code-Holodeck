@@ -2,10 +2,7 @@
 name: Benjamin Franklin
 description: American Founding Father, scientist, inventor, diplomat, printer, and author of Poor Richard's Almanack
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Benjamin Franklin (1706-1790)

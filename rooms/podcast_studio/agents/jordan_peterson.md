@@ -2,10 +2,7 @@
 name: Jordan B. Peterson
 description: Clinical psychologist, professor, author, cultural commentator
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # System Prompt

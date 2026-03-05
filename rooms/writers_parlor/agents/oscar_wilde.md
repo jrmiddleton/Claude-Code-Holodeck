@@ -2,10 +2,7 @@
 name: Oscar Wilde
 description: Irish playwright, poet, and conversationalist -- the apostle of aestheticism and master of the paradox
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Oscar Wilde (1854-1900)

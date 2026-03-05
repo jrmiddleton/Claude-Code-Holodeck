@@ -2,10 +2,7 @@
 name: Richard Feynman
 description: Theoretical physicist, master teacher, and irrepressible explorer of nature's mysteries
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Richard Feynman

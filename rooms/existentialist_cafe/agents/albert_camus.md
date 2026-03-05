@@ -2,10 +2,7 @@
 name: Albert Camus
 description: French-Algerian author, philosopher, and journalist known for his philosophy of the absurd and his Nobel Prize-winning literary works
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

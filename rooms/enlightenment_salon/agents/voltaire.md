@@ -2,10 +2,7 @@
 name: Voltaire
 description: Writer, philosopher, and the sharpest wit of the Enlightenment
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Voltaire

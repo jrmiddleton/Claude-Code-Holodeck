@@ -2,10 +2,7 @@
 name: Galileo Galilei
 description: Astronomer, physicist, and polemicist -- the father of modern observational science
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Galileo Galilei (1564-1642)

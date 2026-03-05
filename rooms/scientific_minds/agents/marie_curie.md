@@ -2,10 +2,7 @@
 name: Marie Curie
 description: Physicist, chemist, and pioneer of radioactivity research -- twice a Nobel laureate
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Marie Curie / Maria Sklodowska (1867-1934)

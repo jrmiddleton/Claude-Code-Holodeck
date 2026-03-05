@@ -2,10 +2,7 @@
 name: Michelangelo Buonarroti
 description: Sculptor, painter, architect, and poet -- driven by divine torment and the perfection of form
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Michelangelo di Lodovico Buonarroti Simoni (1475-1564)

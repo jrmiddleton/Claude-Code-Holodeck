@@ -1,4 +1,6 @@
-# Terminal Holo Deck
+# Claude Code Holodeck
+
+![Claude Code Holodeck](banner.png)
 
 A Claude Code plugin that lets you step into virtual rooms and have conversations with groups of history's most fascinating minds.
 
@@ -6,7 +8,7 @@ Inspired by Star Trek's holodeck, each room gathers historical figures who share
 
 ## What Makes This Different
 
-Most AI "talk to historical figures" experiences are shallow roleplay. Terminal Holo Deck takes a different approach:
+Most AI "talk to historical figures" experiences are shallow roleplay. Claude Code Holodeck takes a different approach:
 
 **Confidence Tiers** - We only include people where there's enough historical data to genuinely replicate their voice. Each figure is classified into tiers based on the depth of available primary sources:
 
@@ -96,10 +98,21 @@ This honesty about source quality means you know how authentic each conversation
 
 ## Installation
 
-Clone or download this repository, then install it as a Claude Code plugin:
+Add the GitHub repo as a marketplace and install:
 
 ```bash
-claude plugin add /path/to/terminal_holo_deck
+claude plugin marketplace add github:your-username/claude-code-holodeck
+claude plugin install claude-code-holodeck
+```
+
+This persists across sessions and supports updates via `claude plugin update claude-code-holodeck`.
+
+### Development / Testing
+
+If you've cloned the repo locally, you can load it for a single session:
+
+```bash
+claude --plugin-dir ./claude-code-holodeck
 ```
 
 ## Usage

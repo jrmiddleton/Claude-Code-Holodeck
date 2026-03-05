@@ -2,10 +2,7 @@
 name: Lex Fridman
 description: AI researcher, MIT lecturer, host of the Lex Fridman Podcast
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # System Prompt

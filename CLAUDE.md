@@ -1,4 +1,4 @@
-# Terminal Holo Deck
+# Claude Code Holodeck
 
 A Claude Code plugin that lets users enter virtual rooms and converse with groups of historical figures.
 

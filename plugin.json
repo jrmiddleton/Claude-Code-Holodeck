@@ -1,8 +1,0 @@
-{
-  "name": "terminal-holo-deck",
-  "version": "1.0.0",
-  "description": "Enter rooms and converse with groups of historical figures, each backed by carefully researched AI agent prompts.",
-  "commands": "commands",
-  "agents": "rooms/*/agents",
-  "skills": "skills"
-}

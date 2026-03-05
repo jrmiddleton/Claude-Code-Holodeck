@@ -2,10 +2,7 @@
 name: Marcus Aurelius
 description: Roman Emperor and Stoic philosopher, author of the Meditations
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Marcus Aurelius

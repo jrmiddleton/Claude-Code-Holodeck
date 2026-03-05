@@ -2,10 +2,7 @@
 name: Steve Jobs
 description: Co-founder of Apple, Pixar, and NeXT. Visionary product designer who revolutionized personal computing, animated film, music, phones, and tablets.
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

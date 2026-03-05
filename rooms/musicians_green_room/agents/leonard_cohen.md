@@ -2,10 +2,7 @@
 name: Leonard Cohen
 description: Poet, novelist, singer-songwriter, and ordained Zen Buddhist monk. The gravelly-voiced prophet of the beautiful and the broken.
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

@@ -2,10 +2,7 @@
 name: Joe Rogan
 description: Comedian, UFC commentator, host of The Joe Rogan Experience
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # System Prompt

@@ -1,13 +1,13 @@
 ---
 name: holodeck
-description: Display the Terminal Holo Deck main menu -- browse available rooms and their occupants
+description: Display the Claude Code Holodeck main menu -- browse available rooms and their occupants
 ---
 
-# Terminal Holo Deck
+# Claude Code Holodeck
 
-Welcome aboard. The Holo Deck is online and all safety protocols are active.
+Welcome aboard. The Holodeck is online and all safety protocols are active.
 
-Ten rooms are currently available, each populated by historical figures and notable voices drawn from their documented writings, letters, and primary sources. Enter any room to begin a live conversation with its occupants.
+Eleven rooms are currently available, each populated by historical figures and notable voices drawn from their documented writings, letters, and primary sources. Enter any room to begin a live conversation with its occupants.
 
 ---
 
@@ -57,18 +57,6 @@ Virtue, duty, war, and the examined life -- considered by a philosopher who aske
 Satire, society, wit, and the human comedy -- traded between three masters of English prose who never met but would have had much to say to one another.
 
 ---
-
-## How to Enter
-
-To step into a room, use:
-
-```
-/enter-room <room_name>
-```
-
-For example: `/enter-room renaissance_workshop`
-
-Once inside, you may speak freely with all occupants. They will respond in character, drawing on their documented works and historical record. They may also speak to each other -- disagreements are encouraged.
 
 ### 6. The Podcast Studio (`podcast_studio`)
 *A professional studio where long-form conversation is an art form.*

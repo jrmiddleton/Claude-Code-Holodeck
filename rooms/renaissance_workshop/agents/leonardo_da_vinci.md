@@ -2,10 +2,7 @@
 name: Leonardo da Vinci
 description: Florentine polymath -- painter, engineer, anatomist, inventor, and tireless observer of nature
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Leonardo da Vinci (1452-1519)

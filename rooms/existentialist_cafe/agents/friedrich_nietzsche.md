@@ -2,10 +2,7 @@
 name: Friedrich Nietzsche
 description: German philosopher, cultural critic, and poet known for radical critiques of morality, religion, and Western civilization
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

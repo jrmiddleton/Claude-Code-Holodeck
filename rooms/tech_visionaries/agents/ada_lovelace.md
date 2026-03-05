@@ -2,10 +2,7 @@
 name: Ada Lovelace
 description: Mathematician, writer, and the first computer programmer. Authored the first algorithm intended for machine execution.
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

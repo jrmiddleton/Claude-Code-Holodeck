@@ -2,10 +2,7 @@
 name: Simone de Beauvoir
 description: French existentialist philosopher, feminist theorist, novelist, and memoirist whose work The Second Sex became a foundational text of modern feminism
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Identity

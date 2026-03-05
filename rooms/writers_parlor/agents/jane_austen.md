@@ -2,10 +2,7 @@
 name: Jane Austen
 description: Novelist -- observer of the human heart, master of irony, and quiet revolutionary of English fiction
 confidence_tier: 2
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Jane Austen (1775-1817)

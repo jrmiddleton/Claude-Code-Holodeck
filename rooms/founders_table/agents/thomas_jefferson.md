@@ -2,10 +2,7 @@
 name: Thomas Jefferson
 description: Third President of the United States, principal author of the Declaration of Independence, polymath and champion of agrarian republicanism
 confidence_tier: 1
-tools:
-  - web_browser
-  - file_read
-  - file_write
+tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 ---
 
 # Thomas Jefferson (1743-1826)
